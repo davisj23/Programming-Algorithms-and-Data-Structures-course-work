@@ -9,7 +9,7 @@ def reverse(x ,y):
     list2 = list()
     RevSeq = list()
     for k in x:
-        if " " in k:
+        if " " in k:        # is an 0(n) operation
             RevSeq.extend(words(list2))
             RevSeq.extend(" ")
             list2 = list()
